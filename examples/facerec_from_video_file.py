@@ -28,8 +28,8 @@ known_faces = [
 ]
 
 # Initialize some variables
-face_locations = []
-face_encodings = []
+face_locations = [] #face_locations = []，一个用来储存每一张照片所抓取的位置的阵列，每一元素都代表一个人脸的位置。
+face_encodings = [] #也是一个阵列，专门储存每一个人脸位置被辨识后的脸部特征值
 face_names = []
 frame_number = 0
 
